@@ -1,3 +1,2 @@
 # project1
-Odin-Project Tutorial - Webpage with HTML and CSS
-Hello world!
+Basic custom home page built with HTML and CSS.
