@@ -1,0 +1,19 @@
+body {
+    box-sizing: content-box;
+}
+.block-container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    flex-direction: row;
+
+}
+.blocks {
+    height: 24rem;
+    color: whitesmoke;
+    border: 3px solid blue;
+    background-color: blue;
+    display: flex;
+    width: 50%;
+
+}
