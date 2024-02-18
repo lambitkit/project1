@@ -1,0 +1,2 @@
+gradient banner fill-color: background-color: rgba(153, 51, 102, 0.5);
+good alternativ light mint green color for buttons or main color pallete: rgb(163, 238, 219)
