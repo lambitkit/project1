@@ -15,21 +15,40 @@
     <body>
         <!-- Banner here -->
         <div id="banner">
-            <h1 id="title">Welcome!</h1>
+            <h1 id="title">Welcome to my website!</h1>
         </div>
+        <div style="display: flex;">
         <!-- Blocks here-->
-        <!-- Seperate between two sections in rows. -->
-        <div style="padding: 2rem; background-color: #cb808a;">
-                <!-- Row 1
-            -->
-            <div class="block-container">
-                <div class="blocks" style="background-color: #4299f0;">Block</div>
-                <div class="blocks" style="background-color: #d13d51;">Block</div><!-- Darker shade: #6e42f0; #4729a3 -->
+            <!-- Seperate between two sections in rows. -->
+            <div style="padding: 2rem 0 2rem 2rem; background-color: #cb808a; width: 13%; height: 22rem; margin: 2rem 0 0 10rem; float: left; ">
+                    <!-- Row 1
+                -->
+                <div class="block-container">
+                    <div class="blocks" style="background-color: #c13145;">
+                        <a>Home Page</a>
+                    </div>
+                    <div class="blocks" style="background-color: #d13d51;">
+                        <a>About</a>
+                    </div><!-- Darker shade: #6e42f0; #4729a3 -->
+                </div>
+                <!--  Row 2 -->
+                <div class="block-container">
+                    <div class="blocks" style="background-color: #af3142;">Block</div>
+                    <div class="blocks" style="background-color: #813147">Block</div>
+                </div>
             </div>
-            <!--  Row 2 -->
-            <div class="block-container">
-                <div class="blocks" style="background-color: #3d8f3d;">Block</div>
-                <div class="blocks" style="background-color: #4729a3">Block</div>
+            <!-- Style choice: shadow block for links only -->
+            <div style="background-color: #813147; border: 1rem solid #813147; float: left; width: 2rem; height: 24rem; margin: 2rem 0;"></div>
+
+            <!-- Main Section - Middle -->
+            <div class="section" id="main">
+                Description here: 
+            </div>
+
+            <div class="ads-block" id="mood">
+                <h4>Mood:</h5>
+                <img src="" alt="Mood Emoji" width="10px" height="10px"/>
+                <p>Mood Here:</p>
             </div>
         </div>
         <script src="" async defer></script>

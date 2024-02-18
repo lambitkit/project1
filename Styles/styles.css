@@ -1,18 +1,41 @@
-html {
+@import url('../fonts/fonts.css');
+
+/* Universal type and top layer of page. */
+* {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    
+    color: whitesmoke;
+}
+body {
+    box-sizing: content-box;
+    margin: 0;
+    /*margin: 2vw 20vw;*/
     background-image: url('../images/HTMLBackPattern.png');
     background-repeat: repeat;
     background-size: inherit;
 }
 
-body {
-    box-sizing: content-box;
-    margin: 0 5vw;
+#banner {
+    width: 100%;
+    height: 60em; 
+    opacity: 0.88;
+    display: flex; 
+    flex-direction: row;  
+    background-image: url('../images/background.jpg'); 
+    background-size: cover; 
+    justify-content: center;
+    align-items: center;
 }
 
 #title {
+    max-width: 80%;
     background-color: rgb(77, 179, 153);
     color: rgb(13, 49, 46); 
-    font-size: 5rem; 
+    font-size: 5rem;
+    font-weight: 700; 
     text-align: center; 
 
     border: 6px solid rgb(200, 223, 212);
@@ -21,30 +44,71 @@ body {
     
 }
 
-#banner {
-    height: 40em; 
-    display: flex; 
-    flex-direction: column;  
-    background-image: url('../images/background.jpg'); 
-    background-size: cover; 
-    justify-content: center;
-    align-items: center;
-}
+
+/* #region
+    Start maain page contents
+*/
 
 .block-container {
 
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: 100%;
-    flex-direction: row;
+    flex-direction: column;
 
 }
 .blocks {
-    height: 24rem;
+    width: 80%;
+    height: 5rem;
     color: whitesmoke;
     border-radius: 4%;
     display: flex;
-    width: 50%;
+    justify-content: center;
+    align-items: center;
 
+    margin: 0.25rem;
+    cursor: pointer;
+    
+}
 
+.blocks a {
+    text-align: center;
+}
+
+/* Sections and Info */
+.section {
+    width: 45%;
+    height: 40rem;
+    background-color: #45202b;
+}
+
+#main {
+    float: left;
+    margin: 2rem 0 0 3rem;
+}
+
+.ads-block {
+    width: 14%;
+    height: 40rem;
+    background-color: #813147;
+    border: 3px solid rgb(224, 201, 201);
+    border-radius: 1rem;
+
+    margin: 2rem;
+}
+
+#mood {
+    height: 5rem;
+    float: left;
+    clear: none;
+
+    margin-left: 2rem;
+    padding: 0.5rem;
+}
+
+#mood >  * {
+    padding: 0.25rem;
+    margin: 0;
+    text-align: center;
+    color: whitesmoke;
 }
