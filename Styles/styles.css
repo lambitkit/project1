@@ -32,7 +32,6 @@ body {
 }
 
 .block-container {
-    background-color: #261b497e;
 
     display: flex;
     flex-wrap: nowrap;
@@ -46,5 +45,6 @@ body {
     border-radius: 4%;
     display: flex;
     width: 50%;
+
 
 }
