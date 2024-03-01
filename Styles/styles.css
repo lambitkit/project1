@@ -97,6 +97,13 @@ body {
     margin: 2rem 0 0 3rem;
 }
 
+.block-dark-mode, .block-dark-mode > div, .block-dark-mode p {
+    color: #f5f9ff;
+}
+.dark-mode {
+        background-color: #14161ce3;
+        color: #f5f9ff;
+}
 .ads-block {
     width: 14%;
     height: 40rem;

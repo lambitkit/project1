@@ -12,6 +12,19 @@
         padding: 0 1rem;
     }
 
+    .dark-btn {
+        width: 50%;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        margin-bottom: 1rem;
+        color: rgb(27, 27, 27);
+    
+    }
+
+    .dark-btn > button {
+        color: rgb(27, 27, 27);
+    }
+
     .block {
         width: 90%;
         padding: 1.25rem 1rem;
@@ -34,6 +47,14 @@
     #banner {
         width: 100%;
         height: 11rem;
+    }
+
+    .dark-btn {
+        width: 20%;
+        padding-left: 1rem;
+        margin-bottom: 1rem;
+        color: rgb(27, 27, 27);
+    
     }
 
     .block {

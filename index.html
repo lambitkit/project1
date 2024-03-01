@@ -18,6 +18,10 @@
         <div id="banner">
             <h1 id="title">Welcome to my website!</h1>
         </div>
+        <!-- Dark mode function-->
+        <div class="dark-btn">
+            <button onclick="DarkMode()">Dark Mode: Activate</button>
+        </div>
         <!-- Blocks here -->
         <div class="block">
             <div class="title">
@@ -85,6 +89,18 @@
             Last change: First homepage/about-me
         </div>
         
-        <script src="" async defer></script>
+        <script>
+            function DarkMode() {
+                var element = document.body;
+                var elm = document.getElementById("update");
+                var classes = document.body.children;
+                element.classList.toggle("dark-mode");
+                for (let i = 0; i < classes.length; i++) {
+                    classes[i].classList.toggle("block-dark-mode");
+                }
+                elm.classList.toggle("block-dark-mode");
+
+            }
+        </script>
     </body>
 </html>
